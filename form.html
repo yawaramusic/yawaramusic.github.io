@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>お問い合わせ・音源制作依頼</title>
+
+
+</head>
+<body background="wallhaven-475q9o.jpg">
+     <header>
+        <ul>
+            <a href="file:///C:/Users/house/Desktop/sample01/The%20Lake%20Wound/index.html"><li>TOPページへ</li></a>
+            <a href="file:///C:/Users/house/Desktop/sample01/The%20Lake%20Wound/freemusicpagemain.html"><li>フリー音源ダウンロード</li></a>
+            <a href="file:///C:/Users/house/Desktop/sample01/The%20Lake%20Wound/kiyaku.html"><li>使用規約</li></a>
+            <a href="file:///C:/Users/house/Desktop/sample01/The%20Lake%20Wound/form.html"><li>音源制作依頼</li></a>
+          </ul>
+     </header>
+  <div class="container">
+  
+  
+         <h5><p><b>この度は当社のウェブサイトをご利用いただきまして誠にありがとうございます。</b></p></h5>
+         <h6><p>お問い合わせおよび音源制作の依頼の方は下記のフォームまでご記入いただき、送信をお願いいたします。</p></h6>
+
+            <div class="form-group">
+             <label for="name"><b>お名前:</b></label>
+             <input type="text" id="name" name="name" placeholder="例) Yawara Music">
+            </div>
+            <div class="form-group">
+             <label for="job"><b>Emailアドレス:</B></label>
+             <input type="email" id="job" name="job" placeholder="例) xxx@mail.com>   
+            </div>
+
+            <div class="form-group">
+            <p> <label for="country"><b>ご職業:</b></label><br>
+             <select id="country" name="country" class="form-control">
+                <option value="">選択してください。</option>
+                <option value="Employee">会社員</option>
+                <option value="Student">学生</option>                        
+                <option value="Musician">音楽家</option>                                    
+             </select>
+            </div>    
+            <div class="form-group">
+                <label><b>制作依頼の方は下記の内容からチェックを入れてください。:</b></label>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="q1" value="compose">
+                        作曲依頼
+                    </label>
+                </div>
+                <div class="checkbox">
+                 <label>
+                     <input type="checkbox" name="q1" value="mastering">
+                     マスタリング
+                 </label>
+                </div> 
+                <div class="checkbox">
+                 <label>
+                <input type="checkbox" name="q1" value="Mixdown">
+                ミックスダウン
+                 </label>
+                </div>
+            </div>   
+             <div class="form-group">
+                <label><b>納期の指定:</b></label>
+                <div>
+                   <label class="radio">
+                    <input type="radio" name="q2" value="1">１週間以内 (+13,000円)
+                </label>
+                <label class="radio">
+                    <input type="radio" name="q2" value="2">２週間以内 (+8,000円)
+                </label>
+                <label class="radio">                
+                    <input type="radio" name="q2" value="3">３週間以内 (+5,000円)
+                </label>
+                <label class="radio">                
+                    <input type="radio" name="q2" value="4" checked>一か月 (追加金額なし)
+                </label>
+                </div>    
+                <div>
+                    <p><b>参考音源がある方、またはミックスダウン/マスタリングご依頼の方は音源を添付してください。<span class="text-danger"><br>(ミックス/マスタリングのお客様はwavファイルを推奨します)</span>:</b></p>
+                </div> 
+                <label>
+                    <span class="btn btn-primary">
+                        音源ファイルの選択
+                        <input type="file" style="display:none">
+                    </span>
+                </label>
+                <div class="form-group">
+                    <label for="message"><b>ご依頼内容をできるだけ詳しくご記入ください。:</b></label>
+                    <textarea name="message" rows="10" class="form-control" placeholder="例:壮大なオーケストラ音源の制作をお願いします。ナショナルジオグラフィックのような映像をYouTubeにアップロードしています。参考URL:http://〇〇〇〇〇〇〇〇〇.com"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">送信</button>
+                </div>  
+
+                <input type="submit" value="送信する">
+
+
+            </div>                        
+                
+      </form>
+  </div>
+    <hr>
+    <div class="container">
+     <footer>
+        <p>houseposeidon records&trade;</p>
+     </footer>
+    </div>
+</body>
+
+</html>
